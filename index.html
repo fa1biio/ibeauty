@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>iBeauty studio</title>
+</head>
+<body>
+    <header>
+        <h1>iBeauty studio</h1>
+        <p>Realçando sua beleza natural</p>
+    </header>
+            <section class="Hero">
+                <h2>Agende seu horario com um profissional</h2>
+                <button onclick="scrolltoForm()">Agendar agora</button>
+            </section>
+            <section class="serviços">
+                <h2>Nossos serviços</h2>
+                <div class="serviços">
+                    <div class="card">Cilios</div>
+                    <div class="card">Sobrancelhas</div>
+                    <div class="card">Limpeza de pele</div>
+                </div>
+            </section>
+            <section class="agendamento" id="form">
+                <h2>Agendamento</h2>
+            <input type="text" id="nome" placeholder="Seu nome">
+            <input type="text" id="telefone" placeholder="Telefone">
+            <select id="servico">
+                <option value="">Escolha o serviço</option>
+                <option>Cilios</option>
+                <option>Sobrancelhas</option>
+                <option>Limpeza de pele</option>
+            </select>
+            <input type="date" id="data">
+            <input type="time" id="hora">
+            <button onclick="agendar()">Confirmar Agendamento</button>
+
+            <p id="Mensagem"></p>
+            </section>
+            
+            <script src="js/script.js"></script>
+</body>
+</html>

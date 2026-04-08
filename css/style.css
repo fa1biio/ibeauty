@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 20px;
+  background: black;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(45deg, #ff4081, #ff80ab);
+}
+
+.hero button {
+  padding: 15px 25px;
+  border: none;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* SERVIÇOS */
+.servicos {
+  text-align: center;
+  padding: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* FORM */
+.agendamento {
+  text-align: center;
+  padding: 40px;
+}
+
+input, select {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 12px;
+  background: #ff4081;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
